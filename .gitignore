@@ -1,0 +1,20 @@
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Large data files (keep a small sample or a pointer)
+data/*
+!data/sample/          # keep a tiny sample if you want
+# If you store the raw dataset elsewhere (e.g., Google Drive), just keep a README link.
+
+# Presentation files you don’t want to track (e.g., .pptx backups)
+*.pptx~
